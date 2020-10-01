@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="24.019">
+    <testcase classname="Account Creation" name="E2E Customer Purchase journey" time="12.783">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given user is on the homepage...............................................passed
+When user clicks on Sign in button..........................................passed
+And user enters "mak4444@dress.co.uk" into email addess textfield...........passed
+And user clicks on 'Create an account' button...............................passed
+And user selects 'Mr' radio button..........................................passed
+And user enters 'Mohammed Abdul' into first name textfield..................passed
+And user enters 'Kadir' into last name textfield............................passed
+And user enters 'mak4444@dress.co.uk' into email address textfield..........undefined
+And user enters 'mak4444' into password textfield...........................skipped
+And user selects '29' on day dropdown.......................................skipped
+And user selects 'September' on month dropdown..............................skipped
+And user selects '2000' on year dropdown....................................skipped
+And user selects 'true' on Sign up for our newsletter! check box............skipped
+And user selects 'true' on Receive special offers from our partners! check box.skipped
+And user enters 'Mohammed Abdul' into first name textfield..................skipped
+And user enters 'Kadir' into last name textfield............................skipped
+And user enters 'Greenfield Community College' into company textfield.......skipped
+And user enters 'Greenfield Community College' into Address textfield.......skipped
+And user enters 'Shipgate Street' into Address Line2 textfield..............skipped
+And user enters 'Denver' into City textfield................................skipped
+And user selects 'Colorado' into State textfield............................skipped
+And user enters '80201' into Zip/Postal Code textfield......................skipped
+And user selects 'United States' on Country dropdown........................skipped
+And user enters 'Additional information' into additional information textarea.skipped
+And user enters '02085501101' into Homephone textfield......................skipped
+And user enters '07412369554' into mobilephone textfield....................skipped
+And user enters 'My address' into Assign an address alias for future reference textfield.skipped
+Then user sees 'MY ACCOUNT' heading.........................................skipped
+And user sees sign out button...............................................skipped
+And user sees 'Welcome to your account. Here you can manage all of your personal information and orders.' text.skipped
+And user sees Order History and details button..............................skipped
+And user sees My Credit Slips button........................................skipped
+And user sees My Addresses button...........................................skipped
+And user sees My Personal Information button................................skipped
+And user sees My Wishlists button...........................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Account Creation" name="E2E Customer Account Creation journey" time="11.078">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given user is on the homepage...............................................passed
+When user clicks on Sign in button..........................................passed
+And user enters "mak4444@dress.co.uk" into email addess textfield...........passed
+And user clicks on 'Create an account' button...............................passed
+And user selects 'Mr' radio button..........................................passed
+And user enters 'Mohammed Abdul' into first name textfield..................passed
+And user enters 'Kadir' into last name textfield............................passed
+And user enters 'mak4444@dress.co.uk' into email address textfield..........undefined
+And user enters 'mak4444' into password textfield...........................skipped
+And user selects '29' on day dropdown.......................................skipped
+And user selects 'September' on month dropdown..............................skipped
+And user selects '2000' on year dropdown....................................skipped
+And user selects 'true' on Sign up for our newsletter! check box............skipped
+And user selects 'true' on Receive special offers from our partners! check box.skipped
+And user enters 'Mohammed Abdul' into first name textfield..................skipped
+And user enters 'Kadir' into last name textfield............................skipped
+And user enters 'Greenfield Community College' into company textfield.......skipped
+And user enters 'Greenfield Community College' into Address textfield.......skipped
+And user enters 'Shipgate Street' into Address Line2 textfield..............skipped
+And user enters 'Denver' into City textfield................................skipped
+And user selects 'Colorado' into State textfield............................skipped
+And user enters '80201' into Zip/Postal Code textfield......................skipped
+And user selects 'United States' on Country dropdown........................skipped
+And user enters 'Additional information' into additional information textarea.skipped
+And user enters '02085501101' into Homephone textfield......................skipped
+And user enters '07412369554' into mobilephone textfield....................skipped
+And user enters 'My address' into Assign an address alias for future reference textfield.skipped
+Then user sees 'MY ACCOUNT' heading.........................................skipped
+And user sees sign out button...............................................skipped
+And user sees 'Welcome to your account. Here you can manage all of your personal information and orders.' text.skipped
+And user sees Order History and details button..............................skipped
+And user sees My Credit Slips button........................................skipped
+And user sees My Addresses button...........................................skipped
+And user sees My Personal Information button................................skipped
+And user sees My Wishlists button...........................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>
